@@ -2,7 +2,7 @@ ArrayList<Star> stars;
 final int STAR_CAP = 5000;
 
 void setup() {
-  size(800,600,P3D);
+  size(1280,720,P3D);
   stars = new ArrayList<Star>();
   for (int i = 0; i < STAR_CAP; i++) {
     stars.add(new Star(new PVector(random(width), random(height), random(-200,0)),
